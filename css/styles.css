@@ -1,0 +1,79 @@
+/*
+Filename: styles.css
+Authors name: Graydon Armstrong
+Website name: Graydon Web Design
+File Description: The custom css that overrides foundation css. Also my css styles for things
+*/
+
+@charset "utf-8";
+
+/*Set the footer to the footer and header color*/
+#footer 
+{
+	background: #333333;
+}
+
+/*Make text white in the footer*/
+#footer p, #footer h4
+{
+	color: #FFFFFF;
+}
+
+/*Center align the copyright*/
+#footer #copyright
+{
+	text-align: center;
+}
+
+/*Set the body to be a lighter grey*/
+body
+{
+	background: #999999;
+}
+
+/*Make the page area to be white*/
+#main_layout
+{
+	background: #FFFFFF;
+}
+
+/*Set the header to the footer and header color*/
+#header_logo
+{
+	background: #333333;
+}
+
+/*Set the navigation to be a color for the current page*/
+#current_page
+{
+	background: #444444 !important;
+}
+
+/*When the navigation link of the current page i hovered make it a lighter color*/
+#current_page:hover
+{
+	background: #555555 !important;
+}
+
+/*Set the nav buttons to the header and footer color*/
+#nav_links ul li > a
+{
+	background: #333333;
+}
+/*Make the nav buttons lighter when moused over*/
+#nav_links ul li > a:hover
+{
+	background: #444444;
+}
+
+/*A css class for images on the page for a black border and css shadow*/
+.shadow_image
+{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #333333;
+	box-shadow: 0px 0px 5px #333333;
+	-webkit-box-shadow: 0px 0px 5px #333333;
+	-moz-box-shadow: 0px 0px 5px #333333;
+	margin-bottom:1em;
+}
