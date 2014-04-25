@@ -8,8 +8,7 @@ File Description: This is the header that is included on everypage. It includes 
 <div class="row" id="header_logo">
 		</br>
 	<div class="large-12 columns">
-		<img src="images/logo.png" width=64 height=64>
-		<?php include('php/display_login_logout.php');?>
+		<img src="images/steamlogo.png" width=128 height=64>
 	</div>
 </div>
 

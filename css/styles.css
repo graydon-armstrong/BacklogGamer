@@ -28,7 +28,8 @@ File Description: The custom css that overrides foundation css. Also my css styl
 /*Set the body to be a lighter grey*/
 body
 {
-	background: #999999;
+	/*background: #999999;*/
+	background-image: url("../images/steamlibrary.png");
 }
 
 /*Make the page area to be white*/
