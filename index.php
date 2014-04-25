@@ -15,14 +15,13 @@ File Description: The home page for the website. Just is the landing page for th
 	<div class="row" id= "main_layout">
 		<div class="large-12 columns">
 		
-		<?php include('header.php'); ?>
-		
-		<div class="row">
-			<div class="large-12 columns">
-				<h1>Home Page</h1>
-				<hr />
-			</div>
-		</div>
+		<?php 
+			//page variables
+			$pagetitle = "Home Page";
+
+			include('header.php'); 			
+			include('php/page_title.php');
+		?>
 
 		<div class="row">
 			<div id="content">
