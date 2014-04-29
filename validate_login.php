@@ -1,8 +1,8 @@
 <!--
-Filename: index.php
+Filename: validate_login.php
 Authors name: Graydon Armstrong
 Website name: Backlog Gamer
-File Description: The admin login page. So you are able to add, edit, and delete blog entries
+File Description: The page to validate the admin login credentials and echo any errors
 -->
 <?php include('php/check_login.php'); ?>
 <!DOCTYPE html>
@@ -19,24 +19,14 @@ File Description: The admin login page. So you are able to add, edit, and delete
 		
 		<?php 
 			//page variables
-			$pagetitle = "Admin Login";					
+			$pagetitle = "Home Page";					
 			include('php/page_title.php');
 		?>
 
 		<div class="row" id="content">
 			<div class="large-12 columns">
 				
-				<form method="post" action="validate_login.php">
-					<div>
-						<label>Username</label></br>
-						<input name="username" maxlength="16" />
-					</div>
-					<div>
-						<label>Password</label></br>
-						<input name="password" type="password" maxlength="16" />
-					</div>
-					<input type="submit" value="Submit" />
-				</form>
+				<?php include('php/login_script.php') ?>
 
 			</div>
 		</div>
