@@ -11,15 +11,15 @@ File Description: The home page for the website. Just is the landing page for th
 	<?php include('head.php'); ?>
 	
 	<body>
+
+	<?php include('header.php'); ?>
 	
 	<div class="row" id= "main_layout">
 		<div class="large-12 columns">
 		
 		<?php 
 			//page variables
-			$pagetitle = "Home Page";
-
-			include('header.php'); 			
+			$pagetitle = "Home Page";					
 			include('php/page_title.php');
 		?>
 
