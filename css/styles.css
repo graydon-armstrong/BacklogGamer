@@ -7,10 +7,20 @@ File Description: The custom css that overrides foundation css. Also my css styl
 
 @charset "utf-8";
 
+html, body
+{
+  height: 100%;
+}
+
 /*Set the footer to the footer and header color*/
 #footer 
 {
 	background: #333333;
+}
+
+#main_layout
+{
+	min-height: 96%;
 }
 
 /*Make text white in the footer*/

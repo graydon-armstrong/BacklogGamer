@@ -23,18 +23,18 @@ File Description: The home page for the website. Just is the landing page for th
 			include('php/page_title.php');
 		?>
 
-		<div class="row">
-			<div id="content">
-				<div class="large-12 columns">
-					<p>Welcome to my gaming blog.</p>
-				</div>
+		<div class="row" id="content">
+			<div class="large-12 columns">
+				<p>Welcome to my gaming blog.</p>
 			</div>
 		</div>
 
-		<?php include('footer.php') ?>
+		
 		
 		</div>
 	</div>
+
+	<?php include('footer.php') ?>
 	
 	<script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
