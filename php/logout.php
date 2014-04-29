@@ -15,5 +15,7 @@ File Description: Logs the user out of the website
 	}
 
 	// Redirect to the login page
-	header('Location: /assignment4/index.php?rand='.rand());
+	echo '<script type="text/javascript">
+				window.location = "../index.php?rand='.rand().'"
+				</script>';
 ?>
