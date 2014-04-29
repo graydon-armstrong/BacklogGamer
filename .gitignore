@@ -227,3 +227,9 @@ pip-log.txt
 #############
 
 images/
+
+#############
+## connection String
+#############
+
+php/mysql_connection_string.php
